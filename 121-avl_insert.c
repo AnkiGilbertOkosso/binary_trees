@@ -87,7 +87,8 @@ avl_t *avl_recursive_insert(avl_t **tree, avl_t *parent,
 	}
 	else if ((*tree)->n < value)
 	{
-		(*tree)->right = avl_recursive_insert(&(*tree)->right, *tree, new_node, value);
+		(*tree)->right = avl_recursive_insert(&(*tree)->right,
+				*tree, new_node, value);
 		if ((*tree)->right == NULL)
 			return (NULL);
 	}
