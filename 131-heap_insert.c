@@ -34,7 +34,8 @@ heap_t *heap_insert(heap_t **root, int value)
 	leave_number & 1 ? (tree->right = new_value) : (tree->left = new_value);
 
 	flip_node = new_value;
-	for (; flip_node->parent && (flip_node->n > flip_node->parent->n); flip_node = flip_node->parent)
+	for (; flip_node->parent && (flip_node->n > flip_node->parent->n);
+			flip_node = flip_node->parent)
 	{
 		tmp = flip_node->n;
 		flip_node->n = flip_node->parent->n;
