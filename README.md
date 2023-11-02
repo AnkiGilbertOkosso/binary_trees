@@ -47,5 +47,5 @@ In addition to gaining knowledge about binary trees, this project introduced me 
 - **GitHub Best Practices:** I now appreciate the importance of managing project repositories on GitHub and adhering to best practices.
 
 ## Conclusion
-
+---
 This Binary Trees Project was a valuable learning experience, enhancing my understanding of binary trees and reinforcing good programming practices. I am now well-equipped to apply this knowledge in future projects and continue my journey as a skilled software developer.
